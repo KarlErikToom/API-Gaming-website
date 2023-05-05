@@ -1,10 +1,12 @@
-//GAMES API https://www.freetogame.com/api/games
+//CHARACTER API https://rickandmortyapi.com/api/character
+//LOCATION API https://rickandmortyapi.com/api/location
+//EPISODE API https://rickandmortyapi.com/api/episode
 
-//CERTAIN GAMES API https://www.freetogame.com/api/game?id=452
 
-async function getGames(){
-    const games = await fetch("https://api.openbrewerydb.org/v1/breweries")
-    const gamesData = await games.json()
-    console.log(gamesData)
-}
-getGames()
+async function getChar() {
+    const char = await fetch("https://rickandmortyapi.com/api/character")
+    const charData = await char.json()
+    console.log(charData)
+  }
+  
+  getChar();
