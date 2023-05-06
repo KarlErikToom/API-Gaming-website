@@ -1,12 +1,10 @@
-//CHARACTER API https://rickandmortyapi.com/api/character
-//LOCATION API https://rickandmortyapi.com/api/location
-//EPISODE API https://rickandmortyapi.com/api/episode
+//base url https://bymykel.github.io/CSGO-API/api/{en}
 
+//agents url https://bymykel.github.io/CSGO-API/api/en/agents.json
 
-async function getChar() {
-    const char = await fetch("https://rickandmortyapi.com/api/character")
-    const charData = await char.json()
-    console.log(charData)
-  }
-  
-  getChar();
+async function getAgents(){
+  const agents = await fetch ("https://bymykel.github.io/CSGO-API/api/en/agents.json")
+  const agentsData = await agents.json()
+  console.log(agentsData)
+}
+getAgents()
