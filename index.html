@@ -4,67 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script
-      src="https://kit.fontawesome.com/7a2e4501c4.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>CS Info</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="index.js" defer></script>
   </head>
   <body>
-    <nav class="nav">
+    <nav class="nav__bar">
       <div class="nav__container">
-        <a href="#" class="nav__logo">
-          <i class="fa-solid fa-film nav__logo--img"></i>
-          Digital Gaming
-        </a>
-        <ul class="nav__links">
+        <a class="nav__logo" href="#">
+          <img class="nav__logo--img" src="assets/csgo logo.png" alt=""
+        /></a>
+        <ul class="nav__list">
           <li class="nav__link">
-            <a href="" class="nav__link--anchor">Browse Games</a>
+            <a href="" class="nav__link--anchor">Agents</a>
           </li>
           <li class="nav__link">
-            <a href="" class="nav__link--anchor nav__link--anchor--primary"
-              >Contact</a
-            >
+            <a href="" class="nav__link--anchor">Music Kits</a>
+          </li>
+          <li class="nav__link">
+            <a href="" class="nav__link--anchor">Cases</a>
+          </li>
+          <li class="nav__link">
+            <a href="" class="nav__link--anchor">Skins</a>
           </li>
         </ul>
       </div>
     </nav>
-    <section id="hero">
-      <div class="container">
-        <div class="row">
-          <div class="hero__wrapper">
-            <div class="hero__left">
-              <div class="hero__left--wrapper">
-                <h1 class="hero__left--header">
-                  Search our database for a Game of your liking
-                </h1>
-                <form class="hero__left--form" action="">
-                  <input class="hero__left--input" type="text" placeholder="Find a Game" />
-                  <button class="hero__left--button" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-            <div class="hero__right">
-              <img
-                class="hero__right--img"
-                src="assets/working-girl.png"
-                alt=""
-              />
-            </div>
-          </div>
+    <section class="info">
+      <div class="info__container">
+        <div class="info__wrapper">
+          <h1 class="info__header">
+            Find all of your favourite skins, agents, cases and much more
+          </h1>
+          <p class="info__para">
+            There's more to this game than just shooting, planting and defusing
+          </p>
+          <input class="info__input" type="text" placeholder="Dragon Lore" />
+          <button class="info__btn" type="submit">Search</button>
         </div>
       </div>
-    </section>
-    <section id="filler">
-        <div class="container">
-            <div class="row">
-                <div class="filler__wrapper">
-                    <h1 class="filler__header">Find some of the most <span class="yellow">Highly Rated</span> games <br> and their reviews in <span class="yellow">1 simple website</span></h1>
-                </div>
-            </div>
-        </div>
+      <figure class="info__left">
+        <img src="assets/cs left.png" alt="">
+      </figure>
+      <figure class="info__right">
+        <img src="assets/cs right.png" alt="">
+      </figure>
     </section>
   </body>
 </html>
