@@ -107,3 +107,62 @@ INFO
   top: 210px;
   right: 20px;
 }
+
+
+
+/*AGENTS.HTML*/
+.agents__nav{
+    height: 30vh;
+    background-color: #00DDFF;
+}
+.nav__img{
+    width: 260px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__input--wrapper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+.nav__input{
+    padding: 16px 28px;
+    margin-top: 40px;
+    width: 30%;
+    border-radius: 500px;
+    border: none;
+    
+}
+.nav__input--btn{
+    position: absolute;
+    top: 48%;
+    right: 35.5%;
+    padding: 12px 12px;
+    border-radius: 9999px;
+}
+
+.agent-list{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.agent{
+    width: 30%;
+}
+.agent-box{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.agent-box__container{
+    padding: 2px 16px;
+}
